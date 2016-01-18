@@ -172,6 +172,7 @@ DEPENDENCIES
   devise
   jbuilder (~> 2.0)
   jquery-rails
+  mail
   pg
   rails (= 4.2.5)
   rails_12factor
