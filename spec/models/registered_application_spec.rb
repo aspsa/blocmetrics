@@ -19,6 +19,8 @@ RSpec.describe RegisteredApplication, type: :model do
     it "validates the uniqueness of #url" do
       should validate_uniqueness_of(:url)
     end
+    
+    it { should belong_to(:user) }
 
   end
   
